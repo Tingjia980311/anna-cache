@@ -23,7 +23,7 @@ IP=`ifconfig eth0 | grep 'inet' | grep -v inet6 | sed -e 's/^[ \t]*//' | cut -d'
 # none are specified, we use hydro-project/anna by default.
 git remote remove origin
 if [[ -z "$REPO_ORG" ]]; then
-  REPO_ORG="hydro-project"
+  REPO_ORG="Tingjia980311"
 fi
 
 if [[ -z "$REPO_BRANCH" ]]; then
